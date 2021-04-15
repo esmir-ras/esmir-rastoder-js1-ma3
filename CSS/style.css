@@ -1,32 +1,13 @@
-* {
-    box-sizing: border-box;
+.api-result {
+    padding-bottom: 10px;
+    
 }
 
-body {
-    background: deepskyblue;
-    font-family: "Open Sans", sans-serif;
+.api-result b {
+font-size: 20px;
+color: red;
 }
 
-h1 {
-    margin-left: 1rem;
-    color: red;
-}
-
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
-.result {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.api2 {
-    margin: 1rem;
-    padding: 1rem;
-    max-width: 200px;
-    background: white;
-    border: 1px solid grey;
-    border-radius: 1rem;
+.loader {
+    
 }
