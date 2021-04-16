@@ -25,9 +25,8 @@ for (let i = 0; i < facts.length; i++) {
       break;
    }
     
-   resultsContainer.innerHTML += `<div class="api-result"><b>Name</b>: ${facts[i].name}</div>`
-   resultsContainer.innerHTML += `<div class="api-result"><b>Rating</b> ${facts[i].rating}</div>`
-   resultsContainer.innerHTML += `<div class="api-result"><b>Tags</b> ${facts[i].tags.length}</div>`
+   resultsContainer.innerHTML += `<div class="api-result"><b>Name</b>: ${facts[i].name}<div><b>Rating</b>: ${facts[i].rating}</div><div><b>Tags</b>: ${facts[i].tags.length}</div></div>`
+
    
    
 }
@@ -54,9 +53,8 @@ for (let i = 0; i < facts.length; i++) {
       break;
    }
     
-   resultsContainer.innerHTML += `<div class="api-result"><b>Name</b>: ${facts[i].name}</div>`
-   resultsContainer.innerHTML += `<div class="api-result"><b>Rating</b> ${facts[i].rating}</div>`
-   resultsContainer.innerHTML += `<div class="api-result"><b>Tags</b> ${facts[i].tags.length}</div>`
+   resultsContainer.innerHTML += `<div class="api-result"><b>Name</b>: ${facts[i].name}<div><b>Rating</b>: ${facts[i].rating}</div><div><b>Tags</b>: ${facts[i].tags.length}</div></div>`
+   
    
    
 }
