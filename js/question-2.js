@@ -63,7 +63,7 @@ for (let i = 0; i < facts.length; i++) {
 
 getGames();
 
-// Error function
+// Error message
 
 function displayError(message) {
 return `<div class"error">${message}</div>`
